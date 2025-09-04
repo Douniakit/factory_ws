@@ -1,0 +1,73 @@
+[0.014s] Invoking command in '/home/dounia/factory_ws/build/factory_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dounia/factory_ws/src/factory_robot_description -DCMAKE_INSTALL_PREFIX=/home/dounia/factory_ws/install/factory_robot_description
+[0.059s] -- The C compiler identification is GNU 13.3.0
+[0.106s] -- The CXX compiler identification is GNU 13.3.0
+[0.119s] -- Detecting C compiler ABI info
+[0.189s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.199s] -- Detecting C compile features
+[0.199s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.284s] -- Detecting CXX compiler ABI info - done
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.293s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.296s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.416s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.517s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.545s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.552s] -- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+[0.553s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.642s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.645s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.645s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.645s] -- Added test 'lint_cmake' to check CMake code style
+[0.646s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.648s] -- Added test 'xmllint' to check XML markup files
+[0.649s] -- Configuring done (0.6s)
+[0.652s] -- Generating done (0.0s)
+[0.654s] -- Build files have been written to: /home/dounia/factory_ws/build/factory_robot_description
+[0.659s] Invoked command in '/home/dounia/factory_ws/build/factory_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dounia/factory_ws/src/factory_robot_description -DCMAKE_INSTALL_PREFIX=/home/dounia/factory_ws/install/factory_robot_description
+[0.660s] Invoking command in '/home/dounia/factory_ws/build/factory_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dounia/factory_ws/build/factory_robot_description -- -j12 -l12
+[0.691s] Invoked command in '/home/dounia/factory_ws/build/factory_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dounia/factory_ws/build/factory_robot_description -- -j12 -l12
+[0.692s] Invoking command in '/home/dounia/factory_ws/build/factory_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dounia/factory_ws/build/factory_robot_description
+[0.698s] -- Install configuration: ""
+[0.699s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/urdf
+[0.699s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/urdf/abb_irb6700_150_320.urdf
+[0.699s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes
+[0.699s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/collision
+[0.700s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/collision/link_2.obj
+[0.700s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/collision/link_6.obj
+[0.701s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/collision/link_1.obj
+[0.702s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/collision/link_5.obj
+[0.702s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/collision/base_link.obj
+[0.702s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/collision/link_4.obj
+[0.703s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/collision/link_3.obj
+[0.703s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/visual
+[0.704s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/visual/link_3.glb
+[0.705s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/visual/link_4.glb
+[0.705s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/visual/link_2.glb
+[0.706s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/visual/base_link.glb
+[0.707s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/visual/link_6.glb
+[0.707s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/visual/link_1.glb
+[0.708s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/meshes/visual/link_5.glb
+[0.708s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/launch
+[0.708s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/launch/display_abb.launch.py
+[0.708s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/rviz
+[0.708s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/rviz/abb_config.rviz
+[0.708s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/config
+[0.709s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/ament_index/resource_index/package_run_dependencies/factory_robot_description
+[0.709s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/ament_index/resource_index/parent_prefix_path/factory_robot_description
+[0.709s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/environment/ament_prefix_path.sh
+[0.710s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/environment/ament_prefix_path.dsv
+[0.710s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/environment/path.sh
+[0.711s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/environment/path.dsv
+[0.711s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/local_setup.bash
+[0.712s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/local_setup.sh
+[0.713s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/local_setup.zsh
+[0.713s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/local_setup.dsv
+[0.714s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.dsv
+[0.714s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/ament_index/resource_index/packages/factory_robot_description
+[0.715s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/cmake/factory_robot_descriptionConfig.cmake
+[0.716s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/cmake/factory_robot_descriptionConfig-version.cmake
+[0.716s] -- Installing: /home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.xml
+[0.722s] Invoked command in '/home/dounia/factory_ws/build/factory_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dounia/factory_ws/build/factory_robot_description

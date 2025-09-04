@@ -1,0 +1,326 @@
+[0.084s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.084s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71a38675a420>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71a38675a0c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71a38675a0c0>>)
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.119s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dounia/factory_ws'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_launch) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_launch) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_launch) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_launch) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_launch) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_launch) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_launch) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_launch) by extension 'ros'
+[0.147s] DEBUG:colcon.colcon_core.package_identification:Package 'src/factory_launch' with type 'ros.ament_cmake' and name 'factory_launch'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_robot_description) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_robot_description) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_robot_description) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_robot_description) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_robot_description) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_robot_description) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_robot_description) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/factory_robot_description) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/factory_robot_description' with type 'ros.ament_cmake' and name 'factory_robot_description'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_axis_description) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_axis_description) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_axis_description) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_axis_description) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_axis_description) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_axis_description) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_axis_description) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_axis_description) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_axis_description) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linear_axis_description' with type 'ros.ament_cmake' and name 'linear_axis_description'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematics) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematics) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematics) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematics) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematics) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematics) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematics) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematics) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_kinematics' with type 'ros.ament_python' and name 'robot_kinematics'
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.168s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dounia/factory_ws/install/robot_kinematics' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.168s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dounia/factory_ws/install/factory_launch' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.168s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dounia/factory_ws/install/linear_axis_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.168s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dounia/factory_ws/install/factory_robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.168s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dounia/factory_ws/install/factory_launch' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.168s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dounia/factory_ws/install/linear_axis_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.168s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dounia/factory_ws/install/factory_robot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/dounia/factory_ws/install
+[0.170s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/jazzy
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'factory_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'factory_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'factory_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'factory_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'factory_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'factory_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'factory_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'factory_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'factory_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'factory_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dounia/factory_ws/build/factory_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dounia/factory_ws/install/factory_robot_description', 'merge_install': False, 'path': '/home/dounia/factory_ws/src/factory_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'linear_axis_description' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'linear_axis_description' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'linear_axis_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'linear_axis_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'linear_axis_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'linear_axis_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'linear_axis_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'linear_axis_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'linear_axis_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'linear_axis_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dounia/factory_ws/build/linear_axis_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dounia/factory_ws/install/linear_axis_description', 'merge_install': False, 'path': '/home/dounia/factory_ws/src/linear_axis_description', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematics' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematics' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'robot_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dounia/factory_ws/build/robot_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dounia/factory_ws/install/robot_kinematics', 'merge_install': False, 'path': '/home/dounia/factory_ws/src/robot_kinematics', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'factory_launch' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'factory_launch' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'factory_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'factory_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'factory_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'factory_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'factory_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'factory_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'factory_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'factory_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dounia/factory_ws/build/factory_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dounia/factory_ws/install/factory_launch', 'merge_install': False, 'path': '/home/dounia/factory_ws/src/factory_launch', 'symlink_install': False, 'test_result_base': None}
+[0.216s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.217s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.217s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dounia/factory_ws/src/factory_robot_description' with build type 'ament_cmake'
+[0.217s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dounia/factory_ws/src/factory_robot_description'
+[0.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.221s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dounia/factory_ws/src/linear_axis_description' with build type 'ament_cmake'
+[0.221s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dounia/factory_ws/src/linear_axis_description'
+[0.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.223s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dounia/factory_ws/src/robot_kinematics' with build type 'ament_python'
+[0.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_kinematics', 'ament_prefix_path')
+[0.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/robot_kinematics/share/robot_kinematics/hook/ament_prefix_path.ps1'
+[0.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dounia/factory_ws/install/robot_kinematics/share/robot_kinematics/hook/ament_prefix_path.dsv'
+[0.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/robot_kinematics/share/robot_kinematics/hook/ament_prefix_path.sh'
+[0.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dounia/factory_ws/build/factory_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dounia/factory_ws/src/factory_robot_description -DCMAKE_INSTALL_PREFIX=/home/dounia/factory_ws/install/factory_robot_description
+[0.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dounia/factory_ws/build/linear_axis_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dounia/factory_ws/src/linear_axis_description -DCMAKE_INSTALL_PREFIX=/home/dounia/factory_ws/install/linear_axis_description
+[0.437s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dounia/factory_ws/src/robot_kinematics'
+[0.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dounia/factory_ws/build/linear_axis_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dounia/factory_ws/src/linear_axis_description -DCMAKE_INSTALL_PREFIX=/home/dounia/factory_ws/install/linear_axis_description
+[0.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dounia/factory_ws/build/linear_axis_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dounia/factory_ws/build/linear_axis_description -- -j12 -l12
+[0.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dounia/factory_ws/build/factory_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dounia/factory_ws/src/factory_robot_description -DCMAKE_INSTALL_PREFIX=/home/dounia/factory_ws/install/factory_robot_description
+[0.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dounia/factory_ws/build/factory_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dounia/factory_ws/build/factory_robot_description -- -j12 -l12
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dounia/factory_ws/build/linear_axis_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dounia/factory_ws/build/linear_axis_description -- -j12 -l12
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dounia/factory_ws/build/linear_axis_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dounia/factory_ws/build/linear_axis_description
+[0.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dounia/factory_ws/build/factory_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dounia/factory_ws/build/factory_robot_description -- -j12 -l12
+[0.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dounia/factory_ws/build/factory_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dounia/factory_ws/build/factory_robot_description
+[0.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linear_axis_description)
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description' for CMake module files
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description' for CMake config files
+[0.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('linear_axis_description', 'cmake_prefix_path')
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/hook/cmake_prefix_path.ps1'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/hook/cmake_prefix_path.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/hook/cmake_prefix_path.sh'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description/bin'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description/lib/pkgconfig/linear_axis_description.pc'
+[0.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dounia/factory_ws/build/linear_axis_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dounia/factory_ws/build/linear_axis_description
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description/lib/python3.12/site-packages'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description/bin'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/package.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/package.dsv'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/package.sh'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/package.bash'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/package.zsh'
+[0.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dounia/factory_ws/install/linear_axis_description/share/colcon-core/packages/linear_axis_description)
+[0.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linear_axis_description)
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description' for CMake module files
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description' for CMake config files
+[0.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('linear_axis_description', 'cmake_prefix_path')
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/hook/cmake_prefix_path.ps1'
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/hook/cmake_prefix_path.dsv'
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/hook/cmake_prefix_path.sh'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description/bin'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description/lib/pkgconfig/linear_axis_description.pc'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description/lib/python3.12/site-packages'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/linear_axis_description/bin'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/package.ps1'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/package.dsv'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/package.sh'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/package.bash'
+[0.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/linear_axis_description/share/linear_axis_description/package.zsh'
+[0.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dounia/factory_ws/install/linear_axis_description/share/colcon-core/packages/linear_axis_description)
+[0.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(factory_robot_description)
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description' for CMake module files
+[0.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dounia/factory_ws/build/factory_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dounia/factory_ws/build/factory_robot_description
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description' for CMake config files
+[0.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('factory_robot_description', 'cmake_prefix_path')
+[0.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/hook/cmake_prefix_path.ps1'
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/hook/cmake_prefix_path.dsv'
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/hook/cmake_prefix_path.sh'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description/bin'
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description/lib/pkgconfig/factory_robot_description.pc'
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description/lib/python3.12/site-packages'
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description/bin'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.ps1'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.dsv'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.sh'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.bash'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.zsh'
+[0.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dounia/factory_ws/install/factory_robot_description/share/colcon-core/packages/factory_robot_description)
+[0.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(factory_robot_description)
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description' for CMake module files
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description' for CMake config files
+[0.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('factory_robot_description', 'cmake_prefix_path')
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/hook/cmake_prefix_path.ps1'
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/hook/cmake_prefix_path.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/hook/cmake_prefix_path.sh'
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description/bin'
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description/lib/pkgconfig/factory_robot_description.pc'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description/lib/python3.12/site-packages'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_robot_description/bin'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.dsv'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.sh'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.bash'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_robot_description/share/factory_robot_description/package.zsh'
+[0.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dounia/factory_ws/install/factory_robot_description/share/colcon-core/packages/factory_robot_description)
+[0.949s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dounia/factory_ws/src/factory_launch' with build type 'ament_cmake'
+[0.949s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dounia/factory_ws/src/factory_launch'
+[0.949s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.949s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dounia/factory_ws/build/factory_launch': CMAKE_PREFIX_PATH=/home/dounia/factory_ws/install/linear_axis_description:/home/dounia/factory_ws/install/factory_robot_description:/home/dounia/factory_ws/install/factory_launch:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dounia/factory_ws/src/factory_launch -DCMAKE_INSTALL_PREFIX=/home/dounia/factory_ws/install/factory_launch
+[1.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dounia/factory_ws/src/robot_kinematics': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dounia/factory_ws/build/robot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dounia/factory_ws/install/robot_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_kinematics build --build-base /home/dounia/factory_ws/build/robot_kinematics/build install --record /home/dounia/factory_ws/build/robot_kinematics/install.log --single-version-externally-managed install_data
+[1.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dounia/factory_ws/build/factory_launch' returned '0': CMAKE_PREFIX_PATH=/home/dounia/factory_ws/install/linear_axis_description:/home/dounia/factory_ws/install/factory_robot_description:/home/dounia/factory_ws/install/factory_launch:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dounia/factory_ws/src/factory_launch -DCMAKE_INSTALL_PREFIX=/home/dounia/factory_ws/install/factory_launch
+[1.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dounia/factory_ws/build/factory_launch': CMAKE_PREFIX_PATH=/home/dounia/factory_ws/install/linear_axis_description:/home/dounia/factory_ws/install/factory_robot_description:/home/dounia/factory_ws/install/factory_launch:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dounia/factory_ws/build/factory_launch -- -j12 -l12
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/robot_kinematics' for CMake module files
+[1.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dounia/factory_ws/src/robot_kinematics' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dounia/factory_ws/build/robot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dounia/factory_ws/install/robot_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_kinematics build --build-base /home/dounia/factory_ws/build/robot_kinematics/build install --record /home/dounia/factory_ws/build/robot_kinematics/install.log --single-version-externally-managed install_data
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/robot_kinematics' for CMake config files
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/robot_kinematics/lib'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/robot_kinematics/bin'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/robot_kinematics/lib/pkgconfig/robot_kinematics.pc'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/robot_kinematics/lib/python3.12/site-packages'
+[1.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_kinematics', 'pythonpath')
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/robot_kinematics/share/robot_kinematics/hook/pythonpath.ps1'
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dounia/factory_ws/install/robot_kinematics/share/robot_kinematics/hook/pythonpath.dsv'
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/robot_kinematics/share/robot_kinematics/hook/pythonpath.sh'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/robot_kinematics/bin'
+[1.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_kinematics)
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/robot_kinematics/share/robot_kinematics/package.ps1'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dounia/factory_ws/install/robot_kinematics/share/robot_kinematics/package.dsv'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/robot_kinematics/share/robot_kinematics/package.sh'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/robot_kinematics/share/robot_kinematics/package.bash'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/robot_kinematics/share/robot_kinematics/package.zsh'
+[1.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dounia/factory_ws/install/robot_kinematics/share/colcon-core/packages/robot_kinematics)
+[1.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dounia/factory_ws/build/factory_launch' returned '0': CMAKE_PREFIX_PATH=/home/dounia/factory_ws/install/linear_axis_description:/home/dounia/factory_ws/install/factory_robot_description:/home/dounia/factory_ws/install/factory_launch:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dounia/factory_ws/build/factory_launch -- -j12 -l12
+[1.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dounia/factory_ws/build/factory_launch': CMAKE_PREFIX_PATH=/home/dounia/factory_ws/install/linear_axis_description:/home/dounia/factory_ws/install/factory_robot_description:/home/dounia/factory_ws/install/factory_launch:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dounia/factory_ws/build/factory_launch
+[1.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(factory_launch)
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch' for CMake module files
+[1.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dounia/factory_ws/build/factory_launch' returned '0': CMAKE_PREFIX_PATH=/home/dounia/factory_ws/install/linear_axis_description:/home/dounia/factory_ws/install/factory_robot_description:/home/dounia/factory_ws/install/factory_launch:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dounia/factory_ws/install/robot_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dounia/factory_ws/build/factory_launch
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch' for CMake config files
+[1.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('factory_launch', 'cmake_prefix_path')
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/hook/cmake_prefix_path.ps1'
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/hook/cmake_prefix_path.dsv'
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/hook/cmake_prefix_path.sh'
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch/bin'
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch/lib/pkgconfig/factory_launch.pc'
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch/lib/python3.12/site-packages'
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch/bin'
+[1.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/package.ps1'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/package.dsv'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/package.sh'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/package.bash'
+[1.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/package.zsh'
+[1.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dounia/factory_ws/install/factory_launch/share/colcon-core/packages/factory_launch)
+[1.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(factory_launch)
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch' for CMake module files
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch' for CMake config files
+[1.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('factory_launch', 'cmake_prefix_path')
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/hook/cmake_prefix_path.ps1'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/hook/cmake_prefix_path.dsv'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/hook/cmake_prefix_path.sh'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch/bin'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch/lib/pkgconfig/factory_launch.pc'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch/lib/python3.12/site-packages'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/dounia/factory_ws/install/factory_launch/bin'
+[1.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/package.ps1'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/package.dsv'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/package.sh'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/package.bash'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/dounia/factory_ws/install/factory_launch/share/factory_launch/package.zsh'
+[1.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dounia/factory_ws/install/factory_launch/share/colcon-core/packages/factory_launch)
+[1.591s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.591s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.591s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.592s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.596s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.596s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.596s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.611s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.611s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dounia/factory_ws/install/local_setup.ps1'
+[1.612s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dounia/factory_ws/install/_local_setup_util_ps1.py'
+[1.613s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dounia/factory_ws/install/setup.ps1'
+[1.614s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dounia/factory_ws/install/local_setup.sh'
+[1.614s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dounia/factory_ws/install/_local_setup_util_sh.py'
+[1.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dounia/factory_ws/install/setup.sh'
+[1.615s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dounia/factory_ws/install/local_setup.bash'
+[1.616s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dounia/factory_ws/install/setup.bash'
+[1.617s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dounia/factory_ws/install/local_setup.zsh'
+[1.617s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dounia/factory_ws/install/setup.zsh'

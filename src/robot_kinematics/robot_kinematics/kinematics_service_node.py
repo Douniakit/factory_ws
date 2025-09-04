@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+# ROS2 node that provides kinematics services
+# subscribes to joint states, publishes current end-effector pose, target pose, and IK solutions
 
 import rclpy
 from rclpy.node import Node
@@ -21,7 +22,7 @@ class KinematicsServiceNode(Node):
         # Subscribers
         self.create_subscription(JointState, '/joint_states', self.joint_state_callback, 10)
        
-        # Publishers - FIXED: You had two publishers with same variable name
+        # Publishers 
         self.current_pose_pub = self.create_publisher(PoseStamped, '/robot_kinematics/current_pose', 10) # current end-effector pose
         self.target_pose_pub = self.create_publisher(PoseStamped, '/robot_kinematics/target_pose', 10) # desired target pose
         self.ik_joint_state_pub = self.create_publisher(JointState, '/robot_kinematics/ik_joint_states', 10)
@@ -67,7 +68,7 @@ class KinematicsServiceNode(Node):
             target_position,
             target_orientation,
             initial_guess=self.current_joint_positions,
-            method=IKMethod.LEVENBERG_MARQUARDT
+            method=IKMethod.LEVENBERG_MARQUARDT # or IKMethod.DAMPED_LEAST_SQUARES
         )
         
         if ik_solution is not None:
